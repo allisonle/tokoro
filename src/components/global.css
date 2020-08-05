@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("../../static/fonts/EuclidCircularA-Regular.woff") format("woff"),
+    url("../../static/fonts/EuclidCircularA-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Euclid Circular";
+  src: url("../../static/fonts/EuclidCircularA-Medium.woff") format("woff"),
+    url("../../static/fonts/EuclidCircularA-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+}

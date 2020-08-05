@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
+import "./global.css"
 import "./layout.css"
 import bgImage from "../images/bg.jpg"
 
@@ -18,6 +19,11 @@ const Wrapper = styled.div`
   background-image: url(${bgImage});
   background-size: cover;
   position: absolute;
+  overflow-y: auto;
+`
+const Container = styled.div`
+  margin: 0px auto;
+  max-width: 1200px;
 `
 
 class Layout extends React.Component {
@@ -51,7 +57,7 @@ class Layout extends React.Component {
     return (
       <>
         <Wrapper ref={this.wrapperRef}>
-          <main>{children}</main>
+          <Container>{children}</Container>
         </Wrapper>
       </>
     )
