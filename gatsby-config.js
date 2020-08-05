@@ -44,16 +44,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-styled-components`,
       options: {
-        fonts: [
-          {
-            family: `Nunito Sans`,
-            variants: [`300`, `400`, `600`, `700`, `800`]
-          },
-        ],
+        // Add any options here
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
